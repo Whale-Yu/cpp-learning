@@ -1,0 +1,4 @@
+# 编译和链接
+g++ -std=c++17 static_lib_demo/main.cpp -Iinclude build/libtracking_wrapper.a $(pkg-config --cflags --libs opencv4) -ldl -o static_lib_demo/tracker_static_demo
+
+./static_lib_demo/tracker_static_demo
