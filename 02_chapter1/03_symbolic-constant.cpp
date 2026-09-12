@@ -21,7 +21,7 @@
 int main() {
 
     // 方式1：
-    // SetConsoleOutputCP(CP_UTF8); // 设置控制台输出为UTF-8编码
+    // SetConsoleOutputCP(CP_UTF8); // Set Console Output Code Page 设置控制台输出为UTF-8编码
     // 方式2：
     system("chcp 65001");
 

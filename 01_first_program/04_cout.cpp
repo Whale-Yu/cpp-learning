@@ -4,7 +4,7 @@
 
 int main() {
     // 单份内容：字符串
-    std::cout << "I love c++" << std::endl;
+    std::cout << "I love c++" << std::endl; //endl=end line=换行
 
     // 单份内容：数字【无需双引号包围】
     std::cout << 520 << std::endl;
